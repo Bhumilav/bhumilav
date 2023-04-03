@@ -1,7 +1,7 @@
 {
-    "name": "𝗟𝗮𝗶𝗹𝗮-𝗺𝘂𝘀𝗶𝗰 𝗽𝗹𝗮𝘆𝗲𝗿",
+    "name": "𝐏𝐡𝐲𝐬𝐜𝐨 𝐦𝐮𝐬𝐢𝐜 𝐩𝐥𝐚𝐲𝐢𝐧𝐠",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://telegra.ph/file/a73c91d6717285a8481d1.jpg",
+    "logo": "https://te.legra.ph/file/90266607117ae4b136eea.jpg",
     "keywords": [
     "python3",
     "telegram",

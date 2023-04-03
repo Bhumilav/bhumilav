@@ -1,9 +1,9 @@
 <h2 align="center">
-    ──「 🥰 laila-music player 🥰 」──
+    ──「 🥰𝐏𝐡𝐲𝐬𝐜𝐨 𝐦𝐮𝐬𝐢𝐜 𝐛𝐨𝐭 🥰 」──
 </h2>
 
 <p align="center">
-  <img src="https://telegra.ph/file/a73c91d6717285a8481d1.jpg">
+  <img src="https://te.legra.ph/file/90266607117ae4b136eea.jpg">
 </p>
 
 <p align="center">
@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <img src="https://telegra.ph/file/a73c91d6717285a8481d1.jpg">
+  <img src="https://te.legra.ph/file/90266607117ae4b136eea.jpg">
 </p>
 
 <h3 align="center">

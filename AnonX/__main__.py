@@ -57,7 +57,7 @@ async def init():
         pass
     try:
         await Anon.stream_call(
-            "https://te.legra.ph/file/1d3aeaeee69f964e8e8e0.jpg"
+            "https://te.legra.ph/file/90266607117ae4b136eea.jpg"
         )
     except NoActiveGroupCall:
         LOGGER("AnonX").error(

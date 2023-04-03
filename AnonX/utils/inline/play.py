@@ -14,25 +14,25 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     anon = math.floor(percentage)
     if 0 < anon <= 10:
-        bar = "◉————JIO SAVAN————"
+        bar = "◉————𝐩𝐡𝐲𝐬𝐜𝐨 𝐩𝐥𝐚𝐲𝐢𝐧𝐠 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠————"
     elif 10 < anon < 20:
-        bar = "—◉———JIO SAVAN————"
+        bar = "—◉———𝐩𝐡𝐲𝐬𝐜𝐨 𝐩𝐥𝐚𝐲𝐢𝐧𝐠 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠————"
     elif 20 <= anon < 30:
-        bar = "——◉——JIO SAVAN————"
+        bar = "——◉——𝐩𝐡𝐲𝐬𝐜𝐨 𝐩𝐥𝐚𝐲𝐢𝐧𝐠 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠————"
     elif 30 <= anon < 40:
-        bar = "———◉—JIO SAVAN———"
+        bar = "———◉—𝐩𝐡𝐲𝐬𝐜𝐨 𝐩𝐥𝐚𝐲𝐢𝐧𝐠 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠———"
     elif 40 <= anon < 50:
-        bar = "————◉JIO SAVAN————"
+        bar = "————◉𝐩𝐡𝐲𝐬𝐜𝐨 𝐩𝐥𝐚𝐲𝐢𝐧𝐠 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠————"
     elif 50 <= anon < 60:
-        bar = "————JIO SAVAN———"
+        bar = "————𝐩𝐡𝐲𝐬𝐜𝐨 𝐩𝐥𝐚𝐲𝐢𝐧𝐠 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠———"
     elif 60 <= anon < 70:
-        bar = "————JIO SAVAN———"
+        bar = "————𝐩𝐡𝐲𝐬𝐜𝐨 𝐩𝐥𝐚𝐲𝐢𝐧𝐠 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠———"
     elif 70 <= anon < 80:
-        bar = "————JIO SAVAN—◉——"
+        bar = "————𝐩𝐡𝐲𝐬𝐜𝐨 𝐩𝐥𝐚𝐲𝐢𝐧𝐠 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠—◉——"
     elif 80 <= anon < 95:
-        bar = "———JIO SAVAN——◉—"
+        bar = "———𝐩𝐡𝐲𝐬𝐜𝐨 𝐩𝐥𝐚𝐲𝐢𝐧𝐠 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠——◉—"
     else:
-        bar = "————JIO SAVAN————◉"
+        bar = "————𝐩𝐡𝐲𝐬𝐜𝐨 𝐩𝐥𝐚𝐲𝐢𝐧𝐠 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠————◉"
 
     buttons = [
         [
@@ -61,12 +61,12 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="🔕 𝗖𝗵𝗮𝘁 𝗚𝗿𝗼𝘂𝗽🏋️‍♀️", url="https://t.me/pagal_faimly"
+                text="🔕𝐛𝐬𝐝𝐤 𝐣𝐨𝐢𝐧 𝐜𝐡𝐚𝐭 𝐠𝐫𝐩🏋️‍♀️", url="https://t.me/TKS_CHATTING_GROUP"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="𝘾𝙡𝙤𝙨𝙚 🔐", callback_data=f"close"
+                text="𝐜𝐥𝐨𝐬𝐞 ⛔", callback_data=f"close"
             )
         ],
     ]
@@ -79,25 +79,25 @@ def telegram_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     anon = math.floor(percentage)
     if 0 < anon <= 10:
-        bar = "◉———JIO SAVAN———"
+        bar = "◉———𝐩𝐡𝐲𝐬𝐜𝐨 𝐩𝐥𝐚𝐲𝐢𝐧𝐠 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠———"
     elif 10 < anon < 20:
-        bar = "—◉———JIO SAVAN————"
+        bar = "—◉———𝐩𝐡𝐲𝐬𝐜𝐨 𝐩𝐥𝐚𝐲𝐢𝐧𝐠 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠————"
     elif 20 <= anon < 30:
-        bar = "——◉——JIO SAVAN———"
+        bar = "——◉——𝐩𝐡𝐲𝐬𝐜𝐨 𝐩𝐥𝐚𝐲𝐢𝐧𝐠 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠———"
     elif 30 <= anon < 40:
-        bar = "———◉JIO SAVAN————"
+        bar = "———◉𝐩𝐡𝐲𝐬𝐜𝐨 𝐩𝐥𝐚𝐲𝐢𝐧𝐠 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠————"
     elif 40 <= anon < 50:
-        bar = "————JIO SAVAN————"
+        bar = "————𝐩𝐡𝐲𝐬𝐜𝐨 𝐩𝐥𝐚𝐲𝐢𝐧𝐠 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠————"
     elif 50 <= anon < 60:
-        bar = "————JIO SAVAN◉————"
+        bar = "————𝐩𝐡𝐲𝐬𝐜𝐨 𝐩𝐥𝐚𝐲𝐢𝐧𝐠 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠◉————"
     elif 60 <= anon < 70:
-        bar = "————JIO SAVAN◉———"
+        bar = "————𝐩𝐡𝐲𝐬𝐜𝐨 𝐩𝐥𝐚𝐲𝐢𝐧𝐠 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠◉———"
     elif 70 <= anon < 80:
-        bar = "————JIO SAVAN——◉——"
+        bar = "————𝐩𝐡𝐲𝐬𝐜𝐨 𝐩𝐥𝐚𝐲𝐢𝐧𝐠 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠——◉——"
     elif 80 <= anon < 95:
-        bar = "————JIO SAVAN———◉—"
+        bar = "————𝐩𝐡𝐲𝐬𝐜𝐨 𝐩𝐥𝐚𝐲𝐢𝐧𝐠 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠———◉—"
     else:
-        bar = "—JIO SAVAN—————◉"
+        bar = "—𝐩𝐡𝐲𝐬𝐜𝐨 𝐩𝐥𝐚𝐲𝐢𝐧𝐠 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠—————◉"
 
     buttons = [
         [
@@ -123,12 +123,12 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="🏵️ 𝗖𝗵𝗮𝘁 𝗚𝗿𝗼𝘂𝗽🌺", url="https://t.me/pagal_faimly"
+                text="🔜𝐛𝐬𝐝𝐤 𝐣𝐨𝐢𝐧 𝐜𝐡𝐚𝐭 𝐠𝐫𝐨𝐮𝐩🚾", url="https://t.me/pagal_faimly"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="𝘾𝙡𝙤𝙨𝙚 🔐", callback_data=f"close"
+                text="𝐜𝐥𝐨𝐬𝐞 ⛔", callback_data=f"close"
             )
         ],
     ]
@@ -157,12 +157,12 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="𝗖𝗵𝗮𝘁 𝗚𝗿𝗼𝘂𝗽➡️", url="https://t.me/pagal_faimly"
+                text="𝐛𝐬𝐝𝐤 𝐣𝐨𝐢𝐧 𝗖𝗵𝗮𝘁 𝗚𝗿𝗼𝘂𝗽➡️", url="https://t.me/TKS_CHATTING_GROUP"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="𝘾𝙡𝙤𝙨𝙚 📛", callback_data=f"close"
+                text="𝐜𝐥𝐨𝐬𝐞 ⛔", callback_data=f"close"
             )
         ],
     ]
@@ -188,7 +188,7 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⏮️ 𝗖𝗵𝗮𝘁 𝗚𝗿𝗼𝘂𝗽▶️", url="https://t.me/pagal_faimly"
+                text="⏮️ 𝗖𝗵𝗮𝘁 𝗚𝗿𝗼𝘂𝗽▶️", url="https://t.me/TKS_CHATTING_GROUP"
             ),
         ],
         [
@@ -348,7 +348,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="🍷 𝗖𝗵𝗮𝘁 𝗚𝗿𝗼𝘂𝗽🍷", url="https://t.me/pagal_faimly"
+                text="🔜𝐛𝐬𝐝𝐤 𝐣𝐨𝐢𝐧 𝐜𝐡𝐚𝐭 𝐠𝐫𝐨𝐮𝐩🚾", url="https://t.me/TKS_CHATTING_GROUP"
             ),
         ],
         [

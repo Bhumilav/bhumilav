@@ -25,7 +25,7 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Psycholav/music-bot-
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/REAL_FEELINGS_OF_LAV")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/music_bot122")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/TKS_CHATTING_GROUP")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]

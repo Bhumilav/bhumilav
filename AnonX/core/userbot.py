@@ -79,8 +79,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("@TKS_CHATTING_GROUP")
-                await self.two.join_chat("@TKS_CHATTING_GROUP")
+                await self.two.join_chat("TKS_CHATTING_GROUP")
+                await self.two.join_chat("TKS_CHATTING_GROUP")
             except:
                 pass
             assistants.append(2)
@@ -110,8 +110,8 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:h
-                await self.three.join_chat("@TKS_CHATTING_GROUP")
-                await self.three.join_chat("@TKS_CHATTING_GROUP")
+                await self.three.join_chat("TKS_CHATTING_GROUP")
+                await self.three.join_chat("TKS_CHATTING_GROUP")
             except:
                 pass
             assistants.append(3)
@@ -141,8 +141,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("Red_Wine_Op")
-                await self.four.join_chat("WCFnetwork")
+                await self.four.join_chat("TKS_CHATTING_GROUP")
+                await self.four.join_chat("TKS_CHATTING_GROUP")
             except:
                 pass
             assistants.append(4)
